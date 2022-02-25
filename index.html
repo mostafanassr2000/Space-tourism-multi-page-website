@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frontend Mentor | Space tourism website</title>
+    <!-- Load Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">
+    <!-- Load Styles -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+</head>
+
+<body>
+    <header id="header">
+
+        
+            <nav>
+                <img src="assets/shared/logo.svg" alt="nav logo" class="nav-logo">
+                <hr class="nav-line">
+                <ul id="nav-links">
+                </ul>
+                <div id="nav-button"></div>
+            </nav>
+
+            <main>
+                <section class="home" data-nav="home">
+                    <div class="home-text">
+                        <h3>So, you want to travel to</h3>
+                        <h1 class="home-space">Space</h1>
+                        <p> Let’s face it; if you want to go to space, you might as well genuinely go to
+                            outer space and not hover kind of on the edge of it. Well sit back, and relax
+                            because we’ll give you a truly out of this world experience!
+                        </p>
+                    </div>
+
+                    <button class="explore-button">
+                        explore
+                    </button>
+                </section>
+
+                <section class="destination" data-nav="destination">
+                    <div class="section-header">
+                        <h3> <span class="link-id">01</span>pick your destination</h3>
+                    </div>
+                    <div id="destination-image-container">
+
+                    </div>
+
+                    <div class="destination-info">
+                        <ul class="destination-links"></ul>
+                        <h1 id="destination-name"></h1>
+                        <p id="destination-text"></p>
+
+                        <div class="destination-break-line"></div>
+
+                        <div class="destination-numbers">
+                            <div class="destination-distance">
+                                <p>avg. distance</p>
+                                <div id="destination-distance"></div>
+                            </div>
+
+                            <div class="destination-travel-time">
+                                <p>est. travel time</p>
+                                <div id="destination-travel-time"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="crew" data-nav="crew">
+                    <div class="section-header">
+                        <h3> <span class="link-id">02</span>meet your crew</h3>
+                    </div>
+                    <div class="crew-info">
+
+                        <h3 id="crew-role"></h3>
+                        <h1 id="crew-name"></h1>
+                        <p id="crew-bio"></p>
+
+                    </div>
+
+                    <ul class="crew-links"></ul>
+
+                    <div id="crew-image-container"></div>
+
+                </section>
+
+                <section class="technology" data-nav="technology">
+
+                    <div class="section-header">
+                        <h3> <span class="link-id">03</span>space launch 101</h3>
+                    </div>
+
+                    <div class="technology-info">
+                        <p class="terminology">the terminology...</p>
+                        <h1 id="technology-name"></h1>
+                        <p id="technology-description"></p>
+                    </div>
+                    <ul class="technology-links"></ul>
+
+                    <div id="technology-image-container"></div>
+
+                </section>
+            </main> 
+      
+    </header>
+
+
+    <script src="js/app.js" type="module"></script>
+</body>
+
+</html>
